@@ -1,11 +1,10 @@
 const menuItems = [
-  { category: "The pies", name: "The Ember", description: "Tomato, fior di latte, hot honey, basil, chili", price: "$18" },
-  { category: "The pies", name: "Mushroom Moon", description: "Roasted mushroom, mozzarella, garlic cream, thyme", price: "$20" },
-  { category: "The pies", name: "Green Light", description: "Pesto, spinach, zucchini, ricotta, lemon", price: "$19" },
-  { category: "The pies", name: "Pepperoni Party", description: "Tomato, mozzarella, pepperoni, pickled jalapeño", price: "$21" },
-  { category: "Small things", name: "Garlic knots", description: "Parmesan, parsley, whipped marinara", price: "$8" },
-  { category: "Small things", name: "Market salad", description: "Seasonal greens, shaved fennel, lemon vinaigrette", price: "$10" },
-  { category: "Sweet finish", name: "Olive oil cake", description: "Citrus, sea salt, mascarpone cream", price: "$9" }
+  { category: "12-inch pizzas", name: "Comrade Zephrum", description: "Red sauce, mozzarella", price: "$15" },
+  { category: "12-inch pizzas", name: "Comrade Hastur", description: "Pesto sauce, mozzarella", price: "$16" },
+  { category: "12-inch pizzas", name: "Comrade Ostensibly", description: "Red sauce, mozzarella, pepperoni", price: "$16" },
+  { category: "12-inch pizzas", name: "Comrade Teacup", description: "Red sauce, mozzarella, mushroom, onion, bell peppers", price: "$16" },
+  { category: "12-inch pizzas", name: "Comrade Clawwdia", description: "Pesto sauce, mozzarella, chicken, red onion, ricotta", price: "$17" },
+  { category: "Sweet finish", name: "Peanut butter & chocolate chip cookie", description: "One for $3 or two for $5", price: "$3" }
 ];
 
 const calendarConfig = {
