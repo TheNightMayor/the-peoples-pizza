@@ -22,7 +22,7 @@ function renderChrome() {
     const toggle = header.querySelector(".menu-toggle");
     toggle.addEventListener("click", () => { const open = header.classList.toggle("nav-open"); toggle.setAttribute("aria-expanded", open); });
   }
-  if (footer) footer.innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div><a class="logo logo-light" href="index.html">The people's pizza <span class="logo-cat">🐈</span></a><p class="footer-tagline">Worker-owned pizza.<br />Solidarity wherever we land.</p></div><div class="footer-links"><a href="calendar.html">Upcoming assemblies</a><a href="menu.html">The menu</a><a href="mailto:hello@thepeoplespizza.example">Write to the collective</a><a href="https://instagram.com" target="_blank" rel="noreferrer">Catsgram ↗</a></div></div><div class="container footer-bottom"><span>© 2024 The people's pizza</span><span>Вперёд · Forward together.</span></div></footer>`;
+  if (footer) footer.innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div><a class="logo logo-light" href="index.html">The people's pizza <span class="logo-cat">🐈</span></a><p class="footer-tagline">Worker-owned pizza.<br />Solidarity wherever we land.</p></div><div class="footer-links"><a href="calendar.html">Upcoming assemblies</a><a href="menu.html">The menu</a><a href="mailto:hello@thepeoplespizza.example">Write to the collective</a><a href="https://instagram.com" target="_blank" rel="noreferrer">Catsgram ↗</a></div></div><div class="container footer-bottom"><span>© 2024 The people's pizza</span><span>Forward together.</span></div></footer>`;
 }
 
 function renderMenu() {
